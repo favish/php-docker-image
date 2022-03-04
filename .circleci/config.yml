@@ -1,0 +1,17 @@
+version: '2.1'
+orbs:
+  docker: circleci/docker@2.0.2
+workflows:
+  build-docker-image-only:
+    jobs:
+      - docker/publish:
+          image: favish/php
+          update-description: true
+          tag: $CIRCLE_TAG
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              ignore: /.*/
+          context:
+            - dockerhub
