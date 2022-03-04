@@ -15,7 +15,7 @@ You should add some extra configuration via `.ini` or `.conf` files in `/usr/loc
 and/or file upload limits.
 
 ### TODO
-* Upgrade base image support to [bullseye](https://hub.docker.com/layers/php/library/php/7.3.33-fpm-bullseye/images/sha256-9cbff771dd3099b58ed1103d335ef7a30400db4201708a67b13d2d07260f2c8b?context=explore) - This should be a drop in replacement for most aspects of this image but needs to be tested. 
+* Upgrade base image support to [bullseye](https://hub.docker.com/layers/php/library/php/7.3.33-fpm-bullseye/images/sha256-9cbff771dd3099b58ed1103d335ef7a30400db4201708a67b13d2d07260f2c8b?context=explore) - This should be a drop in replacement for most aspects of this image but needs to be tested.
 
 ### Source
-[Dockerfile on GitHub](https://github.com/favish/varnish-docker-image)
+[Dockerfile on GitHub](https://github.com/favish/php-docker-image)
